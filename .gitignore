@@ -216,3 +216,22 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Dataset
+data/raw/
+data/processed/
+
+# Generated vector indexes / model artifacts
+models/
+*.faiss
+*.index
+*.pkl
+*.joblib
+
+# Local SQLite databases
+*.sqlite
+*.sqlite3
+
+# OS files
+.DS_Store
+Thumbs.db
